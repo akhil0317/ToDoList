@@ -1,0 +1,102 @@
+.form .input{
+    border: 3px solid black;
+    width:300px;
+    font-size:15px;
+    color: black
+    
+}
+
+.form .btn{
+    border: 2px solid black;
+    color: black;
+    width:250px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    color:white;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    
+}
+
+ .todoDiv{
+
+    /* display: flex;
+    justify-content: center;
+    font-size:25px; */
+    position:relative;
+    top:30px;
+    display:grid;
+    grid-template-columns: 10px 10px 10px;
+  grid-gap: 200px;
+  padding-left: 500px;
+
+}
+
+body{
+    background-color: orangered;
+   
+}
+
+ .todoDiv .button1{
+   height:20px;
+   width:50px;
+   cursor: pointer;
+    position:relative;
+    left:10px;
+    top:0px;
+    font-size:2px;
+    left:159px;
+
+}
+
+ .todoDiv .span12{
+    position:relative;
+    left:10px;
+    top:0px;
+    height:20px;
+    width:50px;
+    cursor: pointer;
+    left:100px;
+}
+.todoDiv{
+    /* position: relative;
+    /* left:-70px; */
+    /* top:15px;  */
+
+ 
+}
+.todoDiv.span2{
+    /* position:relative;
+    left:1200px;
+    width:50px;
+    
+    top:-3px; */
+    zoom: 2;
+}
+
+.todoDiv.span1{
+   
+    width:10px;
+    word-wrap: break-word;
+    color:white;
+}
+
+.todoDiv.span3{
+    position:relative;
+  
+    color:white;
+}
+
+.errorClass{
+    position:relative;
+    left:400px;
+    top:100px;
+    color:blue;
+}
